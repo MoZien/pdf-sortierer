@@ -2,7 +2,7 @@ name: PDF Sortierer
 
 on:
   schedule:
-    - cron: "*/5 * * * *"   # alle 5 Minuten
+    - cron: "0 6 * * *"   # jeden Tag um 06:00 UTC
   workflow_dispatch:        # manuelles Starten möglich
 
 jobs:
